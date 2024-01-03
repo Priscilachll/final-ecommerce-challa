@@ -1,0 +1,64 @@
+/* Cart.css */
+
+/* Estilos generales del componente Cart */
+.Cart {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  /* Estilos del título cuando no hay items en el carrito */
+  .Cart-empty {
+    text-align: center;
+  }
+  
+  /* Estilos de la lista de items en el carrito */
+  .Cart-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Estilos de cada item en el carrito */
+  .Cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  /* Estilos del botón para limpiar el carrito */
+  .Cart-clear-button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Estilos del enlace de checkout */
+  .Cart-checkout-link {
+    display: block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  /* Estilos del enlace para volver a la página de productos */
+  .Cart-products-link {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
